@@ -1,0 +1,364 @@
+@media(min-width:768px){
+.foto {
+    text-align: center;
+}
+h1{
+    font-family: "Sedan",sans-serif;
+    text-align: center; font-size:xx-large; color: black;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+h2{
+    font-family: "Sedan",sans-serif;
+    text-align: center; font-size:x-large; color: black;
+    text-decoration: solid;
+}
+body{
+    background-color: #f5f5f5;
+}
+a{
+    font-size: x-large; text-align: center;
+    font-family: "Sedan",sans-serif;
+}
+footer {
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    height: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.Mapache {
+    text-align: center;
+}
+.B{
+    border: 10px;
+    margin: 25px;
+    margin-top:25px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: transparent;
+}
+
+.Boton {
+    font-family:monospace;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    outline: 2px solid rgb(77, 77, 77);
+    padding: 10px 7px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+}
+.Boton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+}
+.Boton:active {
+    background-color: rgb(192, 192, 192);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+.ap {
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    border: 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.Cartas {
+    /* background-color: burlywood; */
+    /* border: 4px solid transparent; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* div {
+    width: 350px;
+    height: 450px;
+    margin: 30px; */
+    /* margin-bottom: 20px; */
+    /* justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+} */
+.uno {
+    /* background-color: red; */
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    /* margin-bottom: 20px; */
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    flex: 1 1 350px 450px;
+}
+.normal, .uno:hover .precio{
+    display: flex;
+}
+.precio, .uno:hover .normal{
+    display: none;
+}
+.dos {
+    /* background-color: blue; */
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    /* margin-bottom: 20px; */
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    flex: 1 1 350px 450px;
+}
+.normal, .dos:hover .precio{
+    display: flex;
+}
+.precio, .dos:hover .normal{
+    display: none;
+}
+.tres {
+    /* background-color: green; */
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    /* margin-bottom: 20px; */
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    flex: 1 1 350px 450px;
+}
+.normal, .tres:hover .precio{
+    display: flex;
+}
+.precio, .tres:hover .normal{
+    display: none;
+}
+.cuatro {
+    /* background-color: pink; */
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    /* margin-bottom: 20px; */
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    flex: 1 1 350px 450px;
+}
+.normal, .cuatro:hover .precio{
+    display: flex;
+}
+.precio, .cuatro:hover .normal{
+    display: none;
+}
+}
+@media(max-width:768px){
+/* .B{
+        height: 25px;
+        border: 10px;
+        display: flex;
+        grid-column-gap: 20px;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .Boton {
+        font-family:monospace;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: rgb(0, 0, 0);
+        outline: 2px solid rgb(77, 77, 77);
+        position: relative;
+        overflow: hidden;
+        background-color: rgb(192, 192, 192);
+        border-radius: 10px;
+    }
+    .Boton:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(34, 34, 34);
+    }
+    .Boton:active {
+        background-color: rgb(192, 192, 192);
+    } */
+    .foto {
+        text-align: center;
+    }
+    h1{
+        font-family: "Sedan",sans-serif;
+        text-align: center; font-size:xx-large; color: black;
+        text-decoration: solid;
+        text-decoration: underline;
+    }
+    h2{
+        font-family: "Sedan",sans-serif;
+        text-align: center; font-size:x-large; color: black;
+        text-decoration: solid;
+    }
+    body{
+        background-color: #f5f5f5;
+        position: relative;
+        padding-bottom: 3em;
+    }
+    a{
+        font-size: x-large; text-align: center;
+        font-family: "Sedan",sans-serif;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        color: rgb(0, 0, 0);
+    }
+    .Mapache {
+        text-align: center;
+    }
+    .B{
+        border: 10px;
+        margin: 25px;
+        margin-top:25px;
+        display: flex;
+        justify-content:space-evenly;
+        background-color: transparent;
+    }
+    
+    .Boton {
+        font-family:monospace;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: rgb(0, 0, 0);
+        outline: 2px solid rgb(77, 77, 77);
+        padding: 10px 7px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgb(192, 192, 192);
+        border-radius: 10px;
+    }
+    .Boton:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(34, 34, 34);
+    }
+    .Boton:active {
+        background-color: rgb(192, 192, 192);
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px;
+    }
+    .ap {
+        background-color: rgb(41, 41, 41);
+        padding: 10px;
+        border: 15px;
+        color: white;
+        border-radius: 10px;
+        margin: 25px;
+    }
+    
+    .Cartas {
+        /* background-color: burlywood; */
+        /* border: 4px solid transparent; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* div {
+        width: 350px;
+        height: 450px;
+        margin: 30px; */
+        /* margin-bottom: 20px; */
+        /* justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aqua;
+    } */
+    .uno {
+        /* background-color: red; */
+        width: 350px;
+        height: 450px;
+        margin: 30px;
+        /* margin-bottom: 20px; */
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        flex: 1 1 350px 450px;
+    }
+    .normal, .uno:hover .precio{
+        display: flex;
+    }
+    .precio, .uno:hover .normal{
+        display: none;
+    }
+    .dos {
+        /* background-color: blue; */
+        width: 350px;
+        height: 450px;
+        margin: 30px;
+        /* margin-bottom: 20px; */
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        flex: 1 1 350px 450px;
+    }
+    .normal, .dos:hover .precio{
+        display: flex;
+    }
+    .precio, .dos:hover .normal{
+        display: none;
+    }
+    .tres {
+        /* background-color: green; */
+        width: 350px;
+        height: 450px;
+        margin: 30px;
+        /* margin-bottom: 20px; */
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        flex: 1 1 350px 450px;
+    }
+    .normal, .tres:hover .precio{
+        display: flex;
+    }
+    .precio, .tres:hover .normal{
+        display: none;
+    }
+    .cuatro {
+        /* background-color: pink; */
+        width: 350px;
+        height: 450px;
+        margin: 30px;
+        /* margin-bottom: 20px; */
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        flex: 1 1 350px 450px;
+    }
+    .normal, .cuatro:hover .precio{
+        display: flex;
+    }
+    .precio, .cuatro:hover .normal{
+        display: none;
+    }
+}
